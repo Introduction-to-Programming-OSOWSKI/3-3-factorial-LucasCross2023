@@ -1,10 +1,10 @@
-def  factorial(x, y):
+def  factorial(x):
         
-    newtotal = x * y 
+    newtotal = x 
     
-    for i in range (x, y):
+    for i in range (0, x):
         total = newtotal
     
     return total 
 
-print(factorial(5, 24))
+print(factorial(5))
