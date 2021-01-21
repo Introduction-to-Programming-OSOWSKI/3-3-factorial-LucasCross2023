@@ -1,9 +1,9 @@
 def  factorial(x):
         
-    newtotal = x 
+    total = x
     
-    for i in range (0, x):
-        total = newtotal
+    for i in range (1, x):
+        total = total * i
     
     return total 
 
