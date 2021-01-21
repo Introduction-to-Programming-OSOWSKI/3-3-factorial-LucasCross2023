@@ -1,6 +1,10 @@
 def  factorial(x, y):
-    total = (x * y)
+        
+    newtotal = x * y 
     
-    return total
+    for i in range (x, y):
+        total = newtotal
+    
+    return total 
 
 print(factorial(5, 24))
